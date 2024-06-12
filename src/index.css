@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-page {
+  width: fit;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-bg {
+  height: 350px;
+  width: 300px;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 10px; /* Add border radius */
+  background-color: #f0f0f0; /* Add background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 15%;
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 240px;
+  padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-width 0.3s; /* Smooth transition for border width change */
+}
+
+input[type="checkbox"] {
+  margin-left: 6px;
+}
+
+.teamleader-chkbox,
+.user-chkbox {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-chkbox {
+  margin-top: -20px;
+}
+
+.menue-bar {
+  width: 350px;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 10px; /* Add border radius */
+  background-color: #f0f0f0; /* Add background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  margin-top: -13%;
+  height: 300px;
+  overflow: auto;
+  margin-right: 5%;
+}
+
+.form-ele {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.form-ele > button {
+  margin-top: 5%;
+  margin-left: 38%;
+}
+
+.form-team {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 15%;
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+.add-ppl {
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  border-radius: 3%;
+}
+
+.plus-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #b3b0b1;
+  font-size: 15px;
+  padding: 0px;
+  margin-left: 0%;
+}
+
+.plus-cont {
+  height: 20px;
+  width: fit;
+  display: flex;
+  align-items: end;
+}
+.plus-btn:hover {
+  color: white;
+  border: 4px solid #837e80;
+}
+
+.menue-bar-maketeam {
+  width: 250px;
+  background-color: white;
+  border-radius: 4%;
+  margin-top: 0%;
+  height: 200px;
+  overflow: auto;
+}
+
+.sub-card {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  margin-left: 40%;
+  margin-top: -35%;
+  z-index: 3;
+  position: fixed;
+}
+
+.sub-card > img {
+  height: 200px;
+  width: 2 00px;
+}
+
+.sub-card > p {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+}
